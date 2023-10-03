@@ -64,21 +64,25 @@
     background-color: red;
 }
 
-.debug footer {
+.debug #site_footer {
     height: 700px;
     background-color: black;
 }
 
-.debug .col-4 {
+.debug .row {
+    background-color: yellow;
     height: 500px;
+    width: 70%;
+}
+
+.debug .col-4 {
     background-color: purple;
-    border: 3px solid yellow;
+    border: 2px dashed blue;
 }
 
 .debug .col-2 {
-    height: 500px;
     background-color: purple;
-    border: 3px solid yellow;
+    border: 2px dashed blue;
 }
 
 .debug .signup {
@@ -92,7 +96,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 
 .container {
     display: flex;
@@ -125,8 +128,7 @@
 .banner,
 .white-section,
 .grey-section,
-.technology-section,
-.footer-col {
+.technology-section {
     justify-content: center;
     align-items: center;
 }
@@ -139,10 +141,24 @@
     width: 20%;
 }
 
-.col-4 {
-    width: calc(85% / 12 * 4);
+.row {
+    display: flex;
+    margin: auto;
 }
 
 .col-2 {
-    width: calc(85% / 12 * 2);
+    width: calc(100% / 12 * 2);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.signup {
+    width: 70%;
+}
+
+.container-signup {
+    display: flex;
+    justify-content: center;
 }
