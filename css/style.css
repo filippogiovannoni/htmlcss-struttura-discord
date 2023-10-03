@@ -64,6 +64,27 @@
     background-color: red;
 }
 
+.debug footer {
+    height: 700px;
+    background-color: black;
+}
+
+.debug .col-4 {
+    height: 500px;
+    background-color: purple;
+    border: 3px solid yellow;
+}
+
+.debug .col-2 {
+    height: 500px;
+    background-color: purple;
+    border: 3px solid yellow;
+}
+
+.debug .signup {
+    height: 130px;
+    background-color: green;
+}
 
 /* Common */
 * {
@@ -82,7 +103,8 @@
     justify-content: center;
 }
 
-.logo {
+.logo,
+.login {
     width: 15%;
 }
 
@@ -90,15 +112,12 @@
     width: 40%;
 }
 
-.login {
-    width: 15%;
-}
-
 #site_header {
     width: 100%;
 }
 
-.banner-content {
+.banner-content,
+.technology-content {
     width: 70%;
 }
 
@@ -106,7 +125,8 @@
 .banner,
 .white-section,
 .grey-section,
-.technology-section {
+.technology-section,
+.footer-col {
     justify-content: center;
     align-items: center;
 }
@@ -119,7 +139,10 @@
     width: 20%;
 }
 
+.col-4 {
+    width: calc(85% / 12 * 4);
+}
 
-.technology-content {
-    width: 70%;
+.col-2 {
+    width: calc(85% / 12 * 2);
 }
