@@ -54,6 +54,17 @@
     background-color: grey;
 }
 
+.debug .technology-section {
+    height: 1300px;
+    background-color: rgb(57, 57, 57);
+}
+
+.debug .technology-content {
+    height: 1000px;
+    background-color: red;
+}
+
+
 /* Common */
 * {
     padding: 0;
@@ -91,13 +102,11 @@
     width: 70%;
 }
 
-.banner {
-    justify-content: center;
-    align-items: center;
-}
 
+.banner,
 .white-section,
-.grey-section {
+.grey-section,
+.technology-section {
     justify-content: center;
     align-items: center;
 }
@@ -108,4 +117,9 @@
 
 .content {
     width: 20%;
+}
+
+
+.technology-content {
+    width: 70%;
 }
